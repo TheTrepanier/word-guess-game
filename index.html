@@ -8,18 +8,23 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="assets/css/style.css">
     <!-- jQuery from Microsoft CDN -->
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 
     <title>Who's that Pokémon?!</title>
   </head>
   <body>
-    <div id="root" class="container">
-        <div id="masthead" class="text-center"><h1>Who's That Pokémon?!</h1></div>
+    <div id="root" class="container text-center">
+        <div id="masthead" class="text-center">
+            <h1 id="title">Who's That Pokémon?!</h1>
+            <h2 id="subtitle">A wild</h2>
+        </div>
         <div id="pokemon-sprite" class="text-center"></div>
         <div id="pokemon-name-blank-spaces" class="text-center"></div>
-
+        <div class="text-center"><h2 id="caption">has appeared!</h2></div>
     </div>
+    <div id="refresh" class="text-center"></div>
 
     <!-- Optional JavaScript -->
     <script src="Assets/javascript/game.js"></script>
