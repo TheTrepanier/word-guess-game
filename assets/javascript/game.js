@@ -1,7 +1,7 @@
 // Create a request variable and assign a new XMLHttpRequest object to it.
 var request = new XMLHttpRequest();
 
-var randomNumber = Math.floor((Math.random() * 807) + 1);
+var randomNumber = Math.floor((Math.random() * 802) + 1);
 var itHappens = Math.floor((Math.random() * 23) + 1);
 var guessesRemaining = 5;
 var correctGuesses = 0;
